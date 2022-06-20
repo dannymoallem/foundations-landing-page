@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header section */
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* section 1 */
+.section-1 {
+    background-color: #1f2937;
+    display:flex;
+  }
+
+.section-1 img {
+    width: 400px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
