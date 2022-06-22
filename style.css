@@ -130,8 +130,7 @@ ul {
 
 .section-3 p:nth-of-type(1) {
     font-size: 36px;
-    font-style: italic;
-    font-weight: 100;
+    font-variant: ;
     color: #1f2937;
 }
 
@@ -146,4 +145,33 @@ ul {
     color: #1f2937;
     font-weight: bold;
     font-size: 28px;
+}
+
+/* section 4 
+++++++++++++++++++++++ */
+
+.section-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-4 .container {
+    display: flex;
+    background-color: #3882f6;
+    width: 60%;
+    border-radius: 8px;
+    padding: 40px 100px;
+    color: #F9FAF8;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.section-4 button {
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 1px 40px;
+    font-size: 18px;
 }
